@@ -9,10 +9,11 @@ FOR CONFIGURING SUBDOMIAN IN LARAVEL PROJECT YOU NEED TO FOLLOW THESE STEPS :
    HERE YOU FIND httpd-vhosts.conf THIS FILE .OPEN THIS AS AN ADMINISTRATOR IN EDITOR AND ADD A VIRTUAL HOST HERE
 
    
-   <VirtualHost *:80>
-    DocumentRoot "C:/path/to/laragon/www/subdomainConcepts"
-    ServerName subdomainConcepts.test
+   <VirtualHost *:80> <br>
+    DocumentRoot "C:/path/to/laragon/www/subdomainConcepts" <br>
+    ServerName subdomainConcepts.test<br>
   </VirtualHost>
+  <br>
   
 
 4- SAVE THE FILE AND OPEN YOUR PROJECT IN CODE EDITOR . GO TO .env FILE AND SET APP_URL=http://subdomainConcepts.test
